@@ -18,14 +18,23 @@ const slides = [
 ]
 console.log("Hello World")
 
-//EventListener pour arrows
-const btn = document.getElementById("btn");
+//EventListener pour arrow gauche
+const arw1 = document.getElementById("arrow1");
 
-function showMsg() {
-  console.log("Bonjour");
+function showMsg1() {
+  console.log("Vous avez cliqué sur la flèche gauche");
 }
 
-btn.addEventListener("click", showMsg);
+arw1.addEventListener("click", showMsg1);
+
+//EventListener pour arrow droite
+const arw2 = document.getElementById("arrow2");
+
+function showMsg2() {
+  console.log("Vous avez cliqué sur la flèche droite");
+}
+
+arw2.addEventListener("click", showMsg2);
 
 
  
